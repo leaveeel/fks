@@ -12,7 +12,7 @@ Frontend Knowledge Structure
 ## 前端开发知识结构
 - 前端工程师
     - 浏览器
-        - IE6/[7](http://www.microsoft.com/en-us/download/internet-explorer-7-details.aspx)/[8](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8)/[9](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages)/[10](http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages)/[11](http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages) (Trident)
+        - IE6/[7](http://www.microsoft.com/en-us/download/internet-explorer-7-details.aspx)/[8](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-8)/[9](http://windows.microsoft.com/en-US/internet-explorer/downloads/ie-9/worldwide-languages)/[10](http://windows.microsoft.com/en-US/internet-explorer/ie-10-worldwide-languages)/[11](http://windows.microsoft.com/en-US/internet-explorer/ie-11-worldwide-languages) (Trident) / [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge) (EdgeHTML)
         - [Firefox](http://www.mozilla.org/en-US/) (Gecko)
         - [Chrome](http://www.google.com/chrome)/[Chromium](http://www.chromium.org/) (Blink)
         - [Safari](http://www.apple.com/safari/) (WebKit)
@@ -41,7 +41,8 @@ Frontend Knowledge Structure
             - [Neovim](http://neovim.org/)
             - [Komodo IDE / Edit](http://www.activestate.com/komodo-edit)
             - [Eclipse](http://www.eclipse.org/)
-            - [Visual Studio](http://www.visualstudio.com/)/[Visual Studio Code](https://code.visualstudio.com/)
+            - [Visual Studio](http://www.visualstudio.com/)
+            - [Visual Studio Code](https://code.visualstudio.com/)
             - [NetBeans](https://netbeans.org/)
             - [Cloud9 IDE](http://c9.io/)
             - [HBuilder](http://www.dcloud.io/)
@@ -50,11 +51,12 @@ Frontend Knowledge Structure
             - [Firebug](http://getfirebug.com/)/[Firecookie](https://addons.mozilla.org/en-US/firefox/addon/firecookie/)
             - [YSlow](http://developer.yahoo.com/yslow/)
             - [IEDeveloperToolbar](http://www.microsoft.com/en-us/download/details.aspx?id=18359)/[IETester](http://www.my-debugbar.com/wiki/IETester/HomePage)
-            - [Fiddler](http://www.fiddler2.com/fiddler2/)
+            - [Fiddler](http://www.telerik.com/fiddler)
             - [Chrome Dev Tools](https://developer.chrome.com/devtools)
             - [Dragonfly](http://www.opera.com/dragonfly/)
             - [DebugBar](http://www.debugbar.com/)
             - [Venkman](https://developer.mozilla.org/en-US/docs/Venkman)
+            - [Charles](https://www.charlesproxy.com/)
         - 版本管理
             - [Git](http://git-scm.com/)/[SVN](http://subversion.apache.org/)/[Mercurial](http://mercurial.selenic.com/)
             - [Github](https://github.com/)/[GitLab](https://about.gitlab.com/)/[Bitbucket](https://bitbucket.org/)/[Gitorious](https://gitorious.org/)/[GNU Savannah](http://savannah.gnu.org/)/[Launchpad](https://launchpad.net/)/[SourceForge](http://sourceforge.net/)/[TeamForge](http://www.collab.net/products/teamforge)
@@ -136,6 +138,9 @@ Frontend Knowledge Structure
             - [Yeoman](http://yeoman.io/)
             - [FIS](http://fis.baidu.com/)
             - [Mod](https://github.com/modulejs/modjs)
+        - ES6＋ 转换器
+            - [Traceur](https://github.com/google/traceur-compiler)
+            - [Babel](https://babeljs.io/)
     - 代码组织
         - 类库模块化
             - [CommonJS](http://www.commonjs.org/)/AMD
@@ -158,12 +163,13 @@ Frontend Knowledge Structure
         - [响应式网页设计](http://zh.wikipedia.org/wiki/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1)
         - [Zeptojs](http://zeptojs.com/)/[iScroll](http://cubiq.org/iscroll)
         - V5/[Sencha Touch](http://www.sencha.com/products/touch)
-        - [PhoneGap](http://phonegap.com/)
+        - [PhoneGap](http://phonegap.com/)/[Cordova](https://cordova.apache.org/)
         - [jQuery Mobile](http://jquerymobile.com/)
         - [W3C Mobile Web Initiative](http://www.w3.org/Mobile/)
         - [W3C mobileOK Checker](http://validator.w3.org/mobile/)
         - [Open Mobile Alliance](http://openmobilealliance.org/)
         - [React Native](https://facebook.github.io/react-native/)
+        - [ionic](http://ionicframework.com/)
     - 前沿技术社区/会议
         - [D2](http://d2forum.org)/[WebRebuild](http://www.webrebuild.org/)
         - NodeParty/[W3CTech](http://w3ctech.com)/[HTML5梦工厂](http://www.html5dw.com)
@@ -192,7 +198,7 @@ Frontend Knowledge Structure
         - 交互设计/可用性/可访问性知识
     - 可视化
         - SVG/Canvas/VML
-        - SVG: [D3](http://d3js.org/)/[Raphaël](http://raphaeljs.com/)/[Snap.svg](http://snapsvg.io/)/[DataV](http://datavlab.org/datavjs/)
+        - SVG: [D3](http://d3js.org/)/[Raphaël](http://dmitrybaranovskiy.github.io/raphael/)/[Snap.svg](http://snapsvg.io/)/[DataV](http://datavlab.org/datavjs/)
         - Canvas: [CreateJS](http://www.createjs.com/)/[KineticJS](http://kineticjs.com/)
         - [WebGL](http://en.wikipedia.org/wiki/WebGL)/[Three.JS](http://threejs.org/)
 
@@ -243,6 +249,8 @@ Frontend Knowledge Structure
 - [基于MVC的JavaScript Web富应用开发](http://book.douban.com/subject/10733304/)★★★
 
 ### 性能实践
+- [高性能网站建设指南](https://book.douban.com/subject/3132277/)★
+- [高性能网站建设进阶指南](https://book.douban.com/subject/4719162/)★★
 - [Web性能实践日志](http://book.douban.com/subject/25891125/)★★★
 - [Web性能权威指南](http://book.douban.com/subject/25856314/)★★★
 
